@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "social-website"
+version = "0.1.0"
+description = ""
+authors = ["evgen2308 <evgen230881@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "4.1.0"
+psycopg2-binary = "^2.9.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
